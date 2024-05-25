@@ -23,7 +23,7 @@ jobs:
       uses: docker/build-push-action@v2 
       with:
         push: true 
-        tags: mgaliulin/finapp:latest
+        tags: mgaliulin/finapp
   deploy:
     name: Deploy the app
     runs-on: ubuntu-latest
